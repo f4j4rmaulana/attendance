@@ -13,6 +13,12 @@
                 <span>Dashboard</span>
             </a>
         </li>
+        <li class="{{ Route::is('attendance') ? 'active' : '' }}">
+            <a class="nav-link" href="{{ route('attendance') }}">
+                <i class="fas fa-clock"></i>
+                <span>Attendance</span>
+            </a>
+        </li>
         {{-- <li class="nav-item dropdown">
             <a href="#" class="nav-link has-dropdown"><i class="fas fa-cog"></i>
                 <span>Dropdown Menu</span>

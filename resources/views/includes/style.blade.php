@@ -5,6 +5,7 @@
 <!-- CSS Libraries -->
 <link rel="stylesheet" href="{{ asset('/assets/vendor/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}">
 <link rel="stylesheet" href="{{ asset('/assets/vendor/datatables.net-select-bs4/css/select.bootstrap4.min.cs') }}s">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
 <!-- Template CSS -->
 <link rel="stylesheet" href="{{ asset('/assets/css/style.css') }}">
@@ -14,6 +15,9 @@
 <style type="text/css">
     .navbar .dropdown-item.has-icon i{
         line-height: inherit;
+    }
+    #map {
+         height: 400px;
     }
 </style>
 
